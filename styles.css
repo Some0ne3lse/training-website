@@ -19,9 +19,9 @@ body {
 }
 .hlink {
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
-a {
+.linkhead {
   color: #E5E7EB;
   font-size: 18px;
   text-decoration: none;
