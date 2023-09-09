@@ -21,6 +21,7 @@ body {
   gap: 15px;
 }
 a {
-  color: white;
+  color: #E5E7EB;
+  font-size: 18px;
   text-decoration: none;
 }
