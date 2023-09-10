@@ -33,6 +33,11 @@ body {
   font-size: 18px;
   text-decoration: none;
 }
+.entirepage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
 .awesomepart {
   display: flex;
   flex-direction: row;
@@ -51,6 +56,7 @@ body {
 .aweimage {
   width: 400px;
   margin-left: 10px;
+  padding: 30px;
 }
 .awehead {
   font-size: 48px;
@@ -69,4 +75,35 @@ body {
   border-radius: 8px;
   padding: 5px;
   width: 100px;
+}
+.randompart {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.randomhead {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  padding: 20px;
+}
+.fourboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1000px;
+}
+.boxntext {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.boximg {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.boximgtext {
+  width: 150px;
 }
