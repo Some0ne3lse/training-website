@@ -1,9 +1,11 @@
 * {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 body {
   min-height: 100vh;
+
 }
 .header {
   display: flex;
@@ -25,4 +27,26 @@ body {
   color: #E5E7EB;
   font-size: 18px;
   text-decoration: none;
+}
+.awesomepart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.awesometext {
+  flex-basis: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aweimage {
+  width: 500px;
+}
+.awehead {
+  font-size: 48px;
+  font-weight: 900;
+  width: 300px;
+  /* ask why extra-bold doesn't work */
 }
