@@ -1,0 +1,3 @@
+[submodule "flex-recipes"]
+	path = flex-recipes
+	url = git@github.com:Some0ne3lse/flex-recipes.git
