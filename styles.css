@@ -135,3 +135,34 @@ justify-content: center;}
 .signature {
   font-weight: bold;
 }
+.actioncall {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bluebox {
+  width: 1300px;
+  height: 150px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.bottom {
+  border: 1px solid #E5E7EB;
+  align-self: center;
+}
+.bluetext {
+  color: #F9FAF8;
+}
+.bluehead {
+  font-size: 24px;
+  font-weight: bold;
+}
+.bluemain {
+  font-size: small;
+}
