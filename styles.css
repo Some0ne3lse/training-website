@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #1F2937;
+  background-color: #5a8dd4;
   color: white;
   padding: 5px;
 }
@@ -42,7 +42,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 100px;
-  background-color: #1F2937;
+  background-color: #5a8dd4;
 }
 .awesometext {
   flex-basis: 500px;
@@ -74,6 +74,7 @@ body {
   border-radius: 8px;
   padding: 5px;
   width: 100px;
+  border: 1px solid #E5E7EB;
 }
 .randompart {
   display: flex;
@@ -91,7 +92,9 @@ body {
 .fourboxes {
   display: flex;
   justify-content: space-evenly;
-  min-width: 1500px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width:  1500px;
   /* ask why flex-wrap doesn't work */
 }
 .boxntext {
@@ -106,12 +109,13 @@ body {
 }
 .boximgtext {
   width: 150px;
+ text-align: center;
 }
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1F2937;
+  background-color: #5a8dd4;
   color: #E5E7EB;
   padding: 15px;
 }
@@ -128,7 +132,7 @@ justify-content: center;}
 }
 .quote-text {
   font-size: 36px;
-  font-weight: lighter;
+  font-weight: 300;
   font-style: italic;
   /* ask why light doesn't work */
 }
@@ -153,7 +157,6 @@ justify-content: center;}
   padding-right: 50px;
 }
 .bottom {
-  border: 1px solid #E5E7EB;
   align-self: center;
 }
 .bluetext {
