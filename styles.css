@@ -80,6 +80,7 @@ body {
   flex-direction: column;
   gap: 50px;
   align-items: center;
+  padding-bottom: 75px;
 }
 .randomhead {
   font-size: 36px;
@@ -89,9 +90,9 @@ body {
 }
 .fourboxes {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 1000px;
+  justify-content: space-evenly;
+  min-width: 1500px;
+  /* ask why flex-wrap doesn't work */
 }
 .boxntext {
   display: flex;
@@ -113,4 +114,24 @@ body {
   background-color: #1F2937;
   color: #E5E7EB;
   padding: 15px;
+}
+.quote {
+  background-color: #E5E7EB;
+  padding: 30px;
+  display: flex;
+justify-content: center;}
+.quotensig {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+  justify-content: center;
+}
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  /* ask why light doesn't work */
+}
+.signature {
+  font-weight: bold;
 }
